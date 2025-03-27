@@ -42,9 +42,7 @@ $$
 2 & 2 & 3 & -7 & 5 & 5 \\
 -1 & -1 & 2 & -7 & 1 & 1
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 1 & 1 & 0 & 1 & 1 & 1 \\
 0 & 0 & 1 & -3 & 1 & 1 \\
@@ -146,18 +144,14 @@ $$
 3 & -6 & 3 & 0 \\
 -6 & 5 & 0 & 1
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 -6 & 5 & 4 & 1 \\
 0 & -7 & 10 & 1 \\
 0 & 0 & -1 & 0 \\
 0 & 0 & 0 & 0
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 1 & 0 & 0 & \frac{-2}{7} \\
 0 & 1 & 0 & \frac{-1}{7} \\
@@ -173,9 +167,7 @@ $$
 * \\
 7
 \end{pmatrix}
-
 =
-
 \begin{pmatrix}
 2 \\
 1 \\
@@ -243,14 +235,12 @@ $$
 
 $$
 \psi^4 =
-
 \begin{pmatrix}
 32 & 16 & 0 & 16 \\
 -32 & -16 & 16 & -32 \\
 0 & 0 & 32 & -32 \\
 0 & 0 & 16 & -16
 \end{pmatrix}^T =
-
 \begin{pmatrix}
 32 & -32 & 0 & 0 \\
 16 & -16 & 0 & 0 \\
@@ -269,9 +259,7 @@ $$
 0 & 0 & 32 & -32 \\
 0 & 0 & 16 & -16
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 32 & 16 & 0 & 16 \\
 0 & 0 & 16 & -16 \\
@@ -292,7 +280,6 @@ $$
 0 & 16 & 32 & 16 \\
 16 & -32 & -32 & -16
 \end{pmatrix}
-
 \sim
 \begin{pmatrix}
 1 & -1 & 0 & 0 \\
@@ -300,9 +287,7 @@ $$
 0 & 1 & 2 & 1 \\
 1 & -2 & -2 & -1
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 1 & 0 & 2 & 1 \\
 0 & 1 & 2 & 1 \\
@@ -310,7 +295,6 @@ $$
 0 & 0 & 0 & 0
 \end{pmatrix}
 $$
-
 Тогда ФСР равно:
 $$
 u_1 = (*, *, 1, 0) = (-2, -2, 1, 0)\\
@@ -331,9 +315,7 @@ $$
 0 & 1 & 0 & 1 & 6
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c c|c}
 1 & 0 & 0 & 0 & 2 \\
@@ -369,9 +351,7 @@ $$
 2 & -2 & 6 & -5 \\
 2 & 0 & 4 & -4
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 1 & 0 & 0 & -1 \\
 0 & 1 & 0 & 0 \\
@@ -396,7 +376,6 @@ $$
 2 & -2 & 6 & -5 \\
 2 & 0 & 4 & -4
 \end{pmatrix}^2 =
-
 \begin{pmatrix}
 3 & -12 & 16 & -11 \\
 2 & -7 & 10 & -7 \\
@@ -423,7 +402,6 @@ $$
 2 & 0 & 4 & -4
 \end{pmatrix}
 =
-
 \begin{pmatrix}
 4 & -17 & 22 & -15 \\
 3 & -12 & 16 & -11 \\
@@ -467,14 +445,12 @@ $$
 
 $$
 (\varphi - E)^2 =
-
 \begin{pmatrix}
 1 & -3 & 6 & -5 \\
 1 & -3 & 4 & -3 \\
 2 & -2 & 5 & -5 \\
 2 & 0 & 4 & -5
 \end{pmatrix}^2 =
-
 \begin{pmatrix}
 0 & -6 & 4 & -1 \\
 0 & -2 & 2 & -1 \\
@@ -520,7 +496,6 @@ $$
 Осталось найти матрицу линейного оператора $\psi$ с заданным образом и ядром. Она равна $CD$:
 
 $$CD =
-
 \begin{pmatrix}
 1 & 0 \\
 0 & 1 \\
@@ -589,9 +564,7 @@ $$
 1 & 2 & 2 & 1
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c}
 -1 & -1 & -1 & -1 \\
@@ -599,9 +572,7 @@ $$
 0 & 0 & -1 & 2
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c}
 1 & 0 & 0 & 1 \\
@@ -616,7 +587,6 @@ $$
 
 $$
 GC\alpha = u \\[10pt]
-
 \begin{pmatrix}
 -1 & -1 & -1\\
 1 & 0 & -1\\
@@ -627,23 +597,18 @@ x & -3 & -4 \\
 5 & y & 8 \\
 -3 & -6 & z
 \end{pmatrix}
-
 \begin{pmatrix}
 1\\
 2\\
 -2
 \end{pmatrix}
-
 =
-
 \begin{pmatrix}
 -3\\
 4\\
 5
 \end{pmatrix}
-
 \\[10pt]
-
 \begin{pmatrix}
 -1 & -1 & -1\\
 1 & 0 & -1\\
@@ -659,7 +624,6 @@ x+2 \\
 4\\
 5
 \end{pmatrix} \\[10pt]
-
 \begin{pmatrix}
 -x-2y+2z+24 \\
 x+2z+17 \\
@@ -685,7 +649,6 @@ x+2z = -13\\
 x+4y-4z = 55
 \end{cases}
 \iff
-
 \begin{pmatrix}
 \begin{array}{c c c|c}
 -1 & -2 & 2 & -27 \\
@@ -693,7 +656,6 @@ x+4y-4z = 55
 1 & 4 & -4 & 55
 \end{array}
 \end{pmatrix}
-
 \sim \\[10pt]
 \sim
 \begin{pmatrix}
@@ -703,9 +665,7 @@ x+4y-4z = 55
 0 & 0 & 2 & -12
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c}
 1 & 0 & 0 & -1 \\
@@ -713,7 +673,6 @@ x+4y-4z = 55
 0 & 0 & 1 & -6
 \end{array}
 \end{pmatrix} \Rightarrow
-
 \begin{pmatrix}
 x\\
 y\\
@@ -747,9 +706,7 @@ $$
 1 & 2 & 2 & 0 & 0 & 1
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c c c}
 1 & 1 & 1 & -1 & 0 & 0 \\
@@ -757,9 +714,7 @@ $$
 0 & 1 & 1 & 1 & 0 & 1
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c c c}
 1 & 1 & 1 & -1 & 0 & 0 \\
@@ -767,10 +722,8 @@ $$
 0 & 0 & 1 & -2 & -1 & -1
 \end{array}
 \end{pmatrix}
-
 \sim \\[10pt]
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c c c}
 1 & 1 & 0 & 1 & 1 & 1 \\
@@ -778,9 +731,7 @@ $$
 0 & 0 & 1 & -2 & -1 & -1
 \end{array}
 \end{pmatrix}
-
 \sim
-
 \begin{pmatrix}
 \begin{array}{c c c|c c c}
 1 & 0 & 0 & -2 & 0 & -1 \\
@@ -788,7 +739,6 @@ $$
 0 & 0 & 1 & -2 & -1 & -1
 \end{array}
 \end{pmatrix} \Rightarrow \\[10pt]
-
 \Rightarrow
 G^{-1} =
 \begin{pmatrix}
@@ -802,7 +752,6 @@ $$
 
 $$
 A = GCG^{-1} =
-
 \begin{pmatrix}
 -1 & -1 & -1\\
 1 & 0 & -1\\
@@ -818,7 +767,6 @@ A = GCG^{-1} =
 3 & 1 & 2 \\
 -2 & -1 & -1
 \end{pmatrix} = \\[10pt] =
-
 \begin{pmatrix}
 -1 & 1 & 2 \\
 2 & 3 & 2 \\
@@ -829,7 +777,6 @@ A = GCG^{-1} =
 3 & 1 & 2 \\
 -2 & -1 & -1
 \end{pmatrix} =
-
 \begin{pmatrix}
 1 & -1 & 1 \\
 1 & 1 & 2 \\
