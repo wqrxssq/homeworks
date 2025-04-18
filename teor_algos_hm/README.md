@@ -5,3 +5,4 @@
 3. [HM3](hm3.md)
 4. [HM4](hm4.md)
 5. [HM5](hm5.md)
+6. [HM6](hm6.md)
